@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.geral{
+    height: 900px;
+}
+
+.container{
+    width: 900px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.meu-menu {
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 70px;
+}
+
+
+.menu-left{
+    display: flex;
+    flex: 2;
+}
+
+.menu-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+
+
+.logo{
+    background-image: url(css/img/astronauta.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100px;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    margin: 1px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.links a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.links, a {
+    text-decoration: none;
+    margin: 7px;
+    font-weight: bold;
+    color: darkgray !important;
+    font-family: "Open Sans", sans serif ;
+}
+
+a:hover {
+    color: chocolate !important ;
+    letter-spacing: 5px;
+    
+ 
+}
+
+.banner{
+    display: flex;
+    background-image: url(css/img/espaco.jpg);
+    background-attachment: fixed; 
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center 28%;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+.news{
+    display: flex;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.news-left {
+    flex: 2;
+    align-items: center;
+    height: 150px;
+    
+}
+
+.news-right {
+    flex: 1;
+    align-content: center;
+    height: 150px;
+    text-align: center;
+    
+
+   
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
+  
+}
+  
+ 
+
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #e83e8c, 0 0 20px #e83e8c, 0 0 30px #e83e8c;
+    transform: scale(1.1);
+  
+}
+
+
+
+
+
+.news-left p {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.news-left h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.titulo {
+
+    margin-top: 60px;
+    margin-left: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 60x;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.eventos {
+    display: flex;
+    width: 100%;
+    height: 230px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.eventos-1{
+   
+    height: 170px;
+    width: 180px;
+    background-image: url(css/img/mundosenai.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 50px;
+    transition: transform 0.5s ease, opacity 0.5s ease; 
+    border: 3px solid powderblue;
+}
+
+    
+.eventos-2{
+   
+    width: 182px;
+    height: 170px;
+    background-image: url(css/img/inovasenai.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 50px;
+    transition: transform 0.5s ease, opacity 0.5s ease; 
+    border: 3px solid powderblue;
+}
+
+.eventos-3 {
+    width: 170px;
+    height: 170px;
+    background-image: url(css/img/grandprix.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 50px;
+    transition: transform 0.5s ease, opacity 0.5s ease; 
+    border: 3px solid powderblue;
+
+}
+
+.eventos-1:hover, .eventos-2:hover, .eventos-3:hover {
+    transform: scale(1.1); 
+    opacity: 0.8; 
+}
+
+
+.container2 {
+    background-image: url(css/img/universo.jpg);
+    background-attachment: fixed; 
+    width: 100%;
+    background-size: cover;
+    height: 350px;
+   
+
+}
+
+.text {
+    flex: 2;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    align-items: center;
+    height: 150px;
+    
+   
+    
+}
+
+.text h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+   
+
+
+}
+
+.text p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 1.5;
+    
+   
+    
+}
+
+
+
+.img1 {
+    background-image: url(css/img/senai1.jpeg);
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: 120px;
+}
+
+.img2 {
+    background-image: url(css/img/senai2.jfif);
+    width: 80px ;
+    height: 80px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    margin-left: 20px;
+    
+}
+
+.flex-container{
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-text{
+    flex: 1;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.flex-text h2{
+    margin-bottom: 20px;
+}
+
+.container-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+
+
+.rodape {
+    display: flex;
+    background-color: black;
+    margin-top: 25px;
+    height: 50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;font-weight: bold;
+  
+    
+}
